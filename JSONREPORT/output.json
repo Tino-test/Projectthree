@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-21T14:04:41.351Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5094400600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.browserstart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 147716200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.maxbrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the login functionality using invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-facebook-page;to-validate-the-login-functionality-using-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 874793000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.closingbrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinition.Hooksclass.afterscenario(Hooksclass.java:35)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
+              "duration": 1747500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooksclass.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinition.Loginstepdefinitionsfb.the_user_is_in_the_facebook_login_page(Loginstepdefinitionsfb.java:20)\r\n\tat ✽.The user is in the facebook login page(file:src/test/resources/Featurefile/logininfb.feature:6)\r\n",
+              "duration": 3215500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "The user is in the facebook login page",
+            "match": {
+              "location": "Loginstepdefinitionsfb.the_user_is_in_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 917600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user validates using using invalid username and invalid password",
+            "match": {
+              "location": "Loginstepdefinitionsfb.the_user_validates_using_using_invalid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "The user clicks the login button",
+            "match": {
+              "location": "Loginstepdefinitionsfb.the_user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The invalid credentials page should be displayed",
+            "match": {
+              "location": "Loginstepdefinitionsfb.the_invalid_credentials_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-21T14:04:47.536Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1505456800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.browserstart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 153036500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.maxbrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To validate the login functionality using invalid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-facebook-page;to-validate-the-login-functionality-using-invalid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 706308500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.closingbrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinition.Hooksclass.afterscenario(Hooksclass.java:35)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
+              "duration": 274300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooksclass.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinition.Loginstepdefinitionsfb.theUserIsInTheFacebookPage(Loginstepdefinitionsfb.java:46)\r\n\tat ✽.The user is in the facebook page(file:src/test/resources/Featurefile/logininfb.feature:13)\r\n",
+              "duration": 870100,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "The user is in the facebook page",
+            "match": {
+              "location": "Loginstepdefinitionsfb.theUserIsInTheFacebookPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 576100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "The user validates  using invalid username and valid password",
+            "match": {
+              "location": "Loginstepdefinitionsfb.theUserValidatesUsingInvalidUsernameAndValidPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 616900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "The user clicks  on the login button",
+            "match": {
+              "location": "Loginstepdefinitionsfb.theUserClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 549700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The invalid credentials page must be displayed",
+            "match": {
+              "location": "Loginstepdefinitionsfb.theInvalidCredentialsPageMustBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@end2end"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the facebook page",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-facebook-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefile/logininfb.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

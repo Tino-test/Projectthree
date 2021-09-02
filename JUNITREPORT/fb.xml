@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="8.559264">
+<testcase classname="To validate the login functionality of the facebook page" name="To validate the login functionality using invalid username and invalid password" time="6.17359">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.stepdefinition.Loginstepdefinitionsfb.the_user_is_in_the_facebook_login_page(Loginstepdefinitionsfb.java:20)&#13;&#10;&#9;at ✽.The user is in the facebook login page(file:src/test/resources/Featurefile/logininfb.feature:6)&#13;&#10;"><![CDATA[Given The user is in the facebook login page................................failed
+When The user validates using using invalid username and invalid password...skipped
+And The user clicks the login button........................................skipped
+Then The invalid credentials page should be displayed.......................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepdefinition.Loginstepdefinitionsfb.the_user_is_in_the_facebook_login_page(Loginstepdefinitionsfb.java:20)
+	at ✽.The user is in the facebook login page(file:src/test/resources/Featurefile/logininfb.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of the facebook page" name="To validate the login functionality using invalid username and valid password" time="2.385674">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.stepdefinition.Loginstepdefinitionsfb.theUserIsInTheFacebookPage(Loginstepdefinitionsfb.java:46)&#13;&#10;&#9;at ✽.The user is in the facebook page(file:src/test/resources/Featurefile/logininfb.feature:13)&#13;&#10;"><![CDATA[Given The user is in the facebook page......................................failed
+When The user validates  using invalid username and valid password..........skipped
+And The user clicks  on the login button....................................skipped
+Then The invalid credentials page must be displayed.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepdefinition.Loginstepdefinitionsfb.theUserIsInTheFacebookPage(Loginstepdefinitionsfb.java:46)
+	at ✽.The user is in the facebook page(file:src/test/resources/Featurefile/logininfb.feature:13)
+]]></failure>
+</testcase>
+</testsuite>
